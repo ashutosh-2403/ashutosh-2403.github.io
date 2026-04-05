@@ -310,6 +310,19 @@ projects:`<div class="output">
 </div>
 <div class="project-card">
   <div class="proj-num">02</div>
+  <div class="proj-title">Notira — Jira to Notion Sync Engine</div>
+  <div class="proj-tech"><span class="tech-tag">Java 21</span><span class="tech-tag">Spring Boot 3.5</span><span class="tech-tag">PostgreSQL</span><span class="tech-tag">Redis</span><span class="tech-tag">Flyway</span><span class="tech-tag">OkHttp</span><span class="tech-tag">Docker</span><span class="tech-tag">Notion API</span><span class="tech-tag">Jira Webhooks</span></div>
+  <div class="proj-date">April 2026 · Open Source · Self-Hosted</div>
+  <div class="proj-desc">
+    <div class="bullet">Built a self-hosted open-source real-time sync engine that listens to Jira webhooks and automatically creates and updates structured Notion pages — Redis-backed async event queue with dead letter support and PostgreSQL audit log tracking every sync event with retry logic.</div>
+    <div class="bullet">Implemented in-place Notion block updates using the Notion Blocks API — fetching live block IDs post-creation and patching paragraph and stage tracker blocks directly, enabling changes in Jira to reflect instantly in Notion without recreating pages.</div>
+    <div class="bullet">Designed a collapsible Change History system using Notion toggle blocks logging every field change with author and timestamp — deployed via Docker Compose with Flyway migrations and ngrok webhook tunneling.</div>
+  </div>
+  <a class="proj-link" href="https://github.com/ashutosh-2403/notira" target="_blank">View on GitHub</a>
+</div>
+
+<div class="project-card">
+  <div class="proj-num">03</div>
   <div class="proj-title">Gym Reservation Bot — Automated Slot Booking</div>
   <div class="proj-tech"><span class="tech-tag">Java 21</span><span class="tech-tag">Spring Boot 3.2</span><span class="tech-tag">Spring Security</span><span class="tech-tag">Selenium 4</span><span class="tech-tag">Docker</span><span class="tech-tag">Google Cloud Run</span><span class="tech-tag">MySQL</span></div>
   <div class="proj-date">June 2025 · Deployed on GCR · us-central1</div>
